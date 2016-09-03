@@ -1,0 +1,16 @@
+{
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "target": "es5",
+    "sourceMap": true
+},
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}

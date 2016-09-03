@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Domain", "AngularJS.Domain\AngularJS.Domain.csproj", "{1B58F4A6-1285-42B2-99CD-214B2CF60B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.SqlDataAccess", "AngularJS.SqlDataAccess\AngularJS.SqlDataAccess.csproj", "{E8A4D6D4-DBB5-47D2-AA68-E537E1E09CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.Services", "AngularJS.Services\AngularJS.Services.csproj", "{5D2F9D50-B9C1-4511-B3D9-797B410E29C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.RESTful.WebApi", "AngularJS.RESTful.WebApi\AngularJS.RESTful.WebApi.csproj", "{0F268DB9-F559-44FE-AD9F-C698653E5724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.SPA", "AngularJS.SPA\AngularJS.SPA.csproj", "{3555BCE7-45F3-4C92-8A13-E614D6914D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDE5E53B-E843-418D-AC1E-36CEE5B22DEF}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionInfo.cs = SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS.RESTful.WebApi.Tests", "AngularJS.RESTful.WebApi.Tests\AngularJS.RESTful.WebApi.Tests.csproj", "{18837C58-7F3B-4FBC-9ED2-AF377C4A96DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B58F4A6-1285-42B2-99CD-214B2CF60B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B58F4A6-1285-42B2-99CD-214B2CF60B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B58F4A6-1285-42B2-99CD-214B2CF60B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B58F4A6-1285-42B2-99CD-214B2CF60B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A4D6D4-DBB5-47D2-AA68-E537E1E09CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A4D6D4-DBB5-47D2-AA68-E537E1E09CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A4D6D4-DBB5-47D2-AA68-E537E1E09CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A4D6D4-DBB5-47D2-AA68-E537E1E09CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2F9D50-B9C1-4511-B3D9-797B410E29C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2F9D50-B9C1-4511-B3D9-797B410E29C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2F9D50-B9C1-4511-B3D9-797B410E29C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2F9D50-B9C1-4511-B3D9-797B410E29C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F268DB9-F559-44FE-AD9F-C698653E5724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F268DB9-F559-44FE-AD9F-C698653E5724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F268DB9-F559-44FE-AD9F-C698653E5724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F268DB9-F559-44FE-AD9F-C698653E5724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3555BCE7-45F3-4C92-8A13-E614D6914D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3555BCE7-45F3-4C92-8A13-E614D6914D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3555BCE7-45F3-4C92-8A13-E614D6914D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3555BCE7-45F3-4C92-8A13-E614D6914D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18837C58-7F3B-4FBC-9ED2-AF377C4A96DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18837C58-7F3B-4FBC-9ED2-AF377C4A96DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18837C58-7F3B-4FBC-9ED2-AF377C4A96DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18837C58-7F3B-4FBC-9ED2-AF377C4A96DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

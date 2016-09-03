@@ -1,0 +1,5 @@
+﻿Install-Package bootstrap -ProjectName AngularJS.SPA
+Install-Package Modernizr -ProjectName AngularJS.SPA
+Install-Package AngularJS.Core -ProjectName AngularJS.SPA
+Install-Package Angular.UI.Bootstrap -ProjectName AngularJS.SPA
+Install-Package jQuery -ProjectName AngularJS.SPA

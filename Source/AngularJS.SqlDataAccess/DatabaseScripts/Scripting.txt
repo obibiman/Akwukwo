@@ -1,0 +1,3 @@
+Enable-Migrations -ProjectName AngularJS.SqlDataAccess -StartUpProjectName AngularJS.SqlDataAccess -Force -Verbose
+Add-Migration InitialDataLoad -ProjectName AngularJS.SqlDataAccess -StartUpProjectName AngularJS.SqlDataAccess -Force -Verbose
+Update-Database -ProjectName AngularJS.SqlDataAccess -StartUpProjectName AngularJS.SqlDataAccess -Force -Verbose

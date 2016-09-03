@@ -1,0 +1,9 @@
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\Sporting.Cricket.Domain\bin\Debug\AngularJS.Domain.dll
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\Sporting.Cricket.Domain\bin\Debug\AngularJS.Domain.pdb
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\Sporting.Cricket.Domain\obj\Debug\AngularJS.Domain.dll
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\Sporting.Cricket.Domain\obj\Debug\AngularJS.Domain.pdb
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\AngularJS.Domain\bin\Debug\AngularJS.Domain.dll
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\AngularJS.Domain\bin\Debug\AngularJS.Domain.pdb
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\AngularJS.Domain\obj\Debug\AngularJS.Domain.dll
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\AngularJS.Domain\obj\Debug\AngularJS.Domain.pdb
+C:\DevSource\DotNet\AngularJS.CRUD.Operation.UsingASP.NET.MVC\Source\AngularJS.Domain\obj\Debug\AngularJS.Domain.csprojResolveAssemblyReference.cache

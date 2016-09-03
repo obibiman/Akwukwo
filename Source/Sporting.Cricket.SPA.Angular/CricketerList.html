@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body ng-app="cricketerapp" ng-controller="CricketerController">
+<div class="row" ng-show="displayMessage">
+    <div class="panel panel-default">
+        <div class="panel-heading"> {{message}} </div>
+    </div>
+</div>
+<div>
+    <h1>{{heading}}</h1>
+    <div>
+        <button type="submit" class="button" ng-click="addCricketer()">
+
+            <i class="fa fa-plus tc-btn"></i> Add Cricketer
+
+        </button>
+    </div>
+</div>
+<div>
+    <br/>
+</div>
+<div>
+    <div class="dataTable_wrapper">
+        <table class="table table-striped table-bordered table-hover table-condensed table-responsive cell-border appointments" id="dataTables-Schedule">
+            <tr>
+                <th ng-click="sort('Id')"> ID </th>
+                <th ng-click="sort('Name')"> Player Name </th>
+                <th ng-click="sort('ODI')"> Total ODI Played </th>
+                <th ng-click="sort('Test')"> Total Test Played </th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr ng-repeat="v in cricketers |orderBy:sortKey:reverse">
+                <td>{{v.Id}}</td>
+                <td>
+                    <a href="cricketer#/detail/{{v.Id}}">{{v.Name}}</a>
+                </td>
+                <td>{{v.ODI}}</td>
+                <td>{{v.Test}}</td>
+                <td>
+                    <a href="#" ng-model="updateButtonText" ng-click="editCricketer(v)">
+                        Edit
+
+                    </a>
+                </td>
+                <td>
+                    <a href="cricketer#/detail/{{v.Id}}">
+
+                        Detail
+
+                    </a>
+                </td>
+                <td>
+                    <a href="#" ng-click="deleteCricketer(v.Id,$index)" confirm="Are you sure you want to Delete this player?">Delete</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div ng-view></div>
+<script type="text/ng-template" id="cricketerModal.html">
+        <h3>
+
+            {{headingtext}}
+
+        </h3>
+        <div class="modal-body">
+            <div class="row" ng-show="displayMessage">
+                <div class="panel panel-default">
+                    <div class="panel-heading"> {{message}} </div>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <td class="bodyText10">Name</td>
+                    <td class="bodyText10"> <input id="Text1" type="text" ng-model="cricketer.Name" /> </td>
+                </tr>
+                <tr>
+                    <td class="bodyText10">ODI</td>
+                    <td class="bodyText10"> <input type="text" class="input" ng-model="cricketer.ODI" /> </td>
+                </tr>
+                <tr>
+                    <td class="bodyText10">Test</td>
+                    <td class="bodyText10"> <input type="text" ng-model="cricketer.Test" /> </td>
+                </tr>
+            </table>
+            <div class="modal-footer">
+                <button type="submit" class="btn-submit" ng-click="update()">
+
+                    <i class="fa fa-pencil-square tc-btn"></i>    {{updateButtonText}}
+
+                </button> <button type="submit" class="btn-submit" ng-click="cancel()">
+
+                    <i class="fa fa-remove tc-btn"></i>    Cancel
+
+                </button>
+            </div>
+        </div>
+    </script>
+</body>
+
+</html>

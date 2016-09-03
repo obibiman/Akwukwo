@@ -1,0 +1,3 @@
+﻿Enable-Migrations -ProjectName Sporting.Cricket.SqlDataAccess -StartUpProjectName Sporting.Cricket.SqlDataAccess -Force -Verbose
+Add-Migration InitialDataLoad -ProjectName Sporting.Cricket.SqlDataAccess -StartUpProjectName Sporting.Cricket.SqlDataAccess -Force -Verbose
+Update-Database -ProjectName Sporting.Cricket.SqlDataAccess -StartUpProjectName Sporting.Cricket.SqlDataAccess -Force -Verbose
